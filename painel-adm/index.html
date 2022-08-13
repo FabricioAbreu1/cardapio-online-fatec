@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="../login/index.html">Life Sucos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../login/index.html">Sair</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="main-container">
+        <h1>Painel Administrativo</h1>
+        <form action="../fer/life-sucos/product.html">
+            <div class="full-box">
+                <input type="submit" id="btnSubmit" value="Dados da empresa">
+            </div>
+        </form>
+        <form action="../cad-pessoas/index.html">
+            <div class="full-box">
+                <input type="submit" id="btnSubmit" value="Cadastro de pessoas">
+            </div>
+        </form>
+        <form action="../cad-prod/projeto.html">
+            <div class="full-box">
+                <input type="submit" id="btnSubmit" value="Cadastro de produtos">
+            </div>
+        </form>
+        <form action="../Cupon/index.html">
+            <div class="full-box">
+                <input type="submit" id="btnSubmit" value="Cadastro de Cupom">
+            </div>
+        </form>
+        <input type="text" name="campo" id="campo" placeholder="Digite a mensagem" autocomplete="off">
+        <input type="submit" id="btnSubmit" value="ok">
+    </div>
+    <p class="error-validation template"></p>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Projeto</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/projeto.css">
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/projeto.js"></script>
+</head>
+
+<body>
+	<header>
+	</header>
+	<section>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="card">
+					<div class="card-header">Cadastro de Produtos</div>
+					<div class="card-body">
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1"><img src="img/pessoa.jpg" width="20" height="20" /></span>
+							<input type="text" id="descricao" class="form-control" placeholder="Descrição" />
+						</div>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1"><img src="img/pessoa.jpg" width="20" height="20" /></span>
+							<input type="number" id="tamanho" class="form-control" placeholder="Tamanho(Quantidade)" />
+						</div>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1"><img src="img/pessoa.jpg" width="20" height="20" /></span>
+							<input type="text" id="preco" class="form-control" placeholder="Valor(Preço)" />
+						</div>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1"><img src="img/pessoa.jpg" width="20" height="20" /></span>
+							<input type="text" id="tipo" class="form-control" placeholder="Cx, Litro, Unidade e etc..." />
+						</div>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1"><img src="img/pessoa.jpg" width="20" height="20" /></span>
+							<input type="text" id="sabor" class="form-control" placeholder="Sabor" />
+						</div>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1"><img src="img/pessoa.jpg" width="20" height="20" /></span>
+							<input type="text" id="inf" class="form-control" placeholder="Informações Adicionais" />
+						</div>
+						
+						<button id="btCImg" class="btn btn-secondary">Carregar Imagem</button><br><br>
+
+						<button id="btSalvar" class="btn btn-secondary">Salvar</button>
+						<button id="btAtv" class="btn btn-secondary">Ativar/Inativar</button>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="card">
+					<div class="card-header">Lista de produtos (Consulta)</div>
+					<div class="card-body">
+						
+						<div id="divBusca">
+							<input type="text" id="txtBusca" placeholder="Buscar..."/>
+							<img src="img/search3.png" id="btnBusca" alt="Buscar"/>
+					    </div>
+
+						<table class="table">
+							<thead>
+									<tr>
+									  <th scope="col">Descrição</th>
+									  <th scope="col">Tamanho</th>
+									  <th scope="col">Valor</th>
+									  <th scope="col">Tipo de Un.</th>
+									  <th scope="col">Sabor</th>
+									  <th scope="col">Informações Adicionais</th>
+									  <th scope="col"></th>
+									  <th scope="col"></th>
+									</tr>
+							</thead>
+									
+							<tbody id="tbClientes">
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+	</footer>
+</body>
+
+</html>

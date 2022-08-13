@@ -1,0 +1,82 @@
+header{
+    background: url('../img/background.png');
+    height: 150px;
+    background-position-y: 225px;
+    background-position-x: 20px;
+}
+
+.card-header{
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    background-color: #2E8B57;
+    color: #FFFAFA;
+}
+
+.card-body{
+    text-align: center;
+    font-family: arial;
+    background-color: #000000;
+}
+
+#btCImg {
+    font-weight: bold;
+    background-color: #2E8B57;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btSalvar {
+    background-color: #2E8B57;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btAtv {
+    background-color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btAjax {
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #696969;
+}
+
+#btAjax1 {
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #696969;
+}
+
+.card-body{
+    background-color: #FFFAFA;
+}
+
+html{
+    scrollbar-width: none;
+}
+
+
+#divBusca{
+    background-color:#FFFAFA;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+
+  #btnBusca{
+    max-width:18px;
+    max-height:18px;
+    width: auto;
+    height: auto;
+  }
