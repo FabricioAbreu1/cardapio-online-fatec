@@ -1,8 +1,12 @@
 header{
     background: url('../img/background.png');
-    height: 150px;
-    background-position-y: 225px;
+    height: 125px;
+    background-position-y: 250px;
     background-position-x: 20px;
+}
+body {
+    background-color: #f4f4f4;
+    background-size: cover;
 }
 
 .card-header{
